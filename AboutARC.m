@@ -23,6 +23,7 @@
 // More on ARC from the compiler team : http://clang.llvm.org/docs/AutomaticReferenceCounting.html
 //
 //  @property (nonatomic,strong) NSString *thingy;
+- (void) setPhoneNumber;
 @end
 
 @interface PhoneNumber : NSObject
