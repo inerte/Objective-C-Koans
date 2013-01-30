@@ -33,6 +33,8 @@
   @property NSUInteger *areaCode;
   @property NSString *digits;
   @property NSUInteger *countryCode;
+
+  - (id) initWithCountryCode:(NSString*)countryCode areaCode:(NSString*)areaCode digits:(NSString*)digits;
 @end
 
 #import "Kiwi.h"
