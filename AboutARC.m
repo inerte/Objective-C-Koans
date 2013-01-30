@@ -35,8 +35,18 @@
 @property NSString *digits;
 @property NSUInteger *countryCode;
 
+- (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits;
+@end
 
-  - (id) initWithCountryCode:(NSString*)countryCode areaCode:(NSString*)areaCode digits:(NSString*)digits;
+@implementation PhoneNumber
+- (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits
+{
+    self = [super init];
+    
+    return self;
+}
+
+
 @end
 
 #import "Kiwi.h"
