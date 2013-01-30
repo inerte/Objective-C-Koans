@@ -29,6 +29,10 @@
   // We would explicitly tell the ARC system that we want a weak reference to Person
   // ie: don't keep the Person around if it's only retained reference is weak
   @property (nonatomic, weak) Person *owner;
+
+  @property NSUInteger *areaCode;
+  @property NSString *digits;
+  @property NSUInteger *countryCode;
 @end
 
 #import "Kiwi.h"
