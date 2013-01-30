@@ -38,6 +38,11 @@
 - (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits;
 @end
 
+@implementation Person
+- (void) setPhoneNumber:(PhoneNumber *)phoneNumber {
+}
+@end
+
 @implementation PhoneNumber
 - (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits
 {
