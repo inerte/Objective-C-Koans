@@ -31,9 +31,9 @@
   // ie: don't keep the Person around if it's only retained reference is weak
 @property (nonatomic, weak) Person *owner;
 
-@property NSUInteger *areaCode;
+@property NSString *areaCode;
 @property NSString *digits;
-@property NSUInteger *countryCode;
+@property NSString *countryCode;
 
 - (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits;
 @end
