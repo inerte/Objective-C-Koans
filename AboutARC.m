@@ -47,6 +47,12 @@
 - (id)initWithCountryCode:(NSString *)countryCode areaCode:(NSString *)areaCode digits:(NSString *)digits
 {
     self = [super init];
+
+    if (self) {
+        self.countryCode = countryCode;
+        self.areaCode = areaCode;
+        self.digits = digits;
+    }
     
     return self;
 }
